@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cve</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel='stylesheet' type='text/css' href='vendors/bootstrap/dist/css/bootstrap.min.css' />
+        
+        <link rel='stylesheet' type='text/css' href='css/index.css' />
+        
+        <script type="text/javascript" src="vendors/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="vendors/d3/d3.min.js"></script>
+    </head>
+    <body style='padding: 60px 0'>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/riskvis/">RiskVis</a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="vendors.html">Vendors</a></li>
+                        <li><a href="cve.html">CVEs</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="about.html">
+                                <span class="fa fa-facebook"></span> About
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="row">
+            <div class="col-md-12" id='vis'></div>
+        </div>
+        
+        <footer class="navbar navbar-default navbar-fixed-bottom">
+            <div class="container">
+                <p class="navbar-text pull-left">
+                    <a href="http://www.freeways.tn" target="_blank">FreeWays </a>association
+                </p>
+                <a href="http://www.freeways.tn/?q=node/6" class="navbar-btn btn-danger btn pull-right">
+                    <span class="glyphicon glyphicon-star"></span>
+                    Contact us
+                </a>
+            </div>
+        </footer>
+        <script type="text/javascript" src="js/dimention.js"></script>
+        <script type="text/javascript" src="js/cve.js"></script>
+    </body>
+</html>
