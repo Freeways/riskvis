@@ -1,0 +1,12 @@
+{
+  "name": "riskvis",
+  "description": "Visualisation for Risky",
+  "version": "1.0.1",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "d3": "3.5.x",
+    "angular": "1.5.x"
+  }
+}
